@@ -27,6 +27,9 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
 }
+section {
+  padding: 2rem 9%;
+}
 body {
   background: #eee;
 }
@@ -225,11 +228,42 @@ header .icons div:hover {
   transition: 0.4s linear;
 }
 
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/images/spaghetti-1932466_1280.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+}
+.home .content {
+  text-align: center;
+  width: 60rem;
+}
+.home .content h3 {
+  color: var(--black);
+  font-size: 3rem;
+}
+.home .content h3 span {
+  color: var(--orange);
+}
+.home .content p {
+  color: #eee;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
   }
   .header {
+    padding: 2rem;
+  }
+  section {
     padding: 2rem;
   }
 }
