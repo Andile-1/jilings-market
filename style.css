@@ -146,7 +146,7 @@ header .icons div:hover {
 .header .shopping-cart {
   position: absolute;
   top: 110%;
-  right: -110%;
+  right: -150%;
   padding: 1rem;
   box-shadow: var(--box-shadow);
   width: 60rem;
